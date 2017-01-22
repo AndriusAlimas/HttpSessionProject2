@@ -10,6 +10,10 @@
   	<listener-class>com.example.listener.ServerAppListener</listener-class>
   </listener>
   
+  <listener>
+  	<listener-class>com.example.other.SessionCounter</listener-class>
+  </listener>
+  
   <servlet>
   	<servlet-name>Servlet_ONE</servlet-name>
   	<servlet-class>com.example.servlet.MyServlet1</servlet-class>
