@@ -4,7 +4,7 @@ import javax.servlet.http.*;
 import java.io.*;
 
 public class MyServlet1 extends HttpServlet {
-	protected void doGet(HttpServletRequest request, 
+	protected void doPost(HttpServletRequest request, 
 			HttpServletResponse response)throws ServletException, IOException{
 	    response.setContentType("text/html");
 	    
